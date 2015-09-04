@@ -14,7 +14,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
-            "SphinxClient": "src/"
+            "ExtendedSphinxClient": "src/",
+            "standartSphinxClient": "src/"
         }
     }
 }
