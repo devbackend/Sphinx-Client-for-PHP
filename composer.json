@@ -1,0 +1,20 @@
+{
+    "name": "ivan-krivonos/yet-another-sphinx-client",
+    "description": "Simple client for Sphinx queries, interfaced by standart api",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Krivonos",
+            "email": "the@tsbgroup.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
