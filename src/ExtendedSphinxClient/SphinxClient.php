@@ -1,6 +1,8 @@
 <?php
 
-namespace SphinxClient;
+namespace ExtendedSphinxClient;
+
+use \StandartSphinxClient\SphinxClient as ApiSphinx;
 
 class SphinxClient {
 
@@ -14,7 +16,7 @@ class SphinxClient {
 
   public function __construct($port=null, $host=null)
   {
-    $this->_sphinxApi = new SphinxClient();
+    $this->_sphinxApi = new ApiSphinx();
 
     if(is_numeric($port))
       $this->__port = $port;

@@ -1,5 +1,6 @@
 <?php
 
+namespace StandartSphinxClient;
 //
 // $Id: sphinxapi.php 4885 2015-01-20 07:02:07Z deogar $
 //
