@@ -2,7 +2,7 @@
 
 namespace ExtendedSphinxClient;
 
-class SphinxClient {
+class ApiClient {
 
   private $_sphinxApi;
   private $_max_matches = 100000;
@@ -14,7 +14,7 @@ class SphinxClient {
 
   public function __construct($port=null, $host=null)
   {
-    $this->_sphinxApi = new ApiClient;
+    $this->_sphinxApi = new SphinxClient;
 
     if(is_numeric($port))
       $this->__port = $port;
