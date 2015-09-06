@@ -511,7 +511,7 @@ function sphSetBit ( $flag, $bit, $on )
 
 
 /// sphinx searchd client class
-class ApiClient
+class SphinxClient
 {
   var $_host;     ///< searchd host (default is "localhost")
   var $_port;     ///< searchd port (default is 9312)
